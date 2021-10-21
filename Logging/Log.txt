@@ -1,0 +1,8 @@
+Oct 19, 2021 3:42:52 PM application.Main main
+WARNING: warning message
+Oct 19, 2021 3:42:52 PM application.Main main
+SEVERE: Severe Messahe
+Oct 20, 2021 12:55:00 PM application.Main main
+WARNING: warning message
+Oct 20, 2021 12:55:01 PM application.Main main
+SEVERE: Severe Messahe

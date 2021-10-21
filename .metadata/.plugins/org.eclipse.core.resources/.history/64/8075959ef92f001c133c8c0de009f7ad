@@ -1,0 +1,17 @@
+import java.util.HashMap;
+import java.util.Scanner;
+
+public class CountDuplicateString {
+
+	public static void main(String[] args) {
+		Scanner myObj = new Scanner(System.in);
+		String str = myObj.nextLine();
+		char ch[] = str.toCharArray();
+		Map<Character, Integer> charac = new HashMap<Character, Integer>();
+		
+		for(char chara : ch) {
+			if(charMap.containsKey)
+		}
+	}
+
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-10-19T15:11:55</date>
+  <millis>1634635615980</millis>
+  <sequence>0</sequence>
+  <logger>logging.LoggerExample</logger>
+  <level>INFO</level>
+  <class>logging.FormatterExample</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Finnest message: Logger with DEFAULT FORMATTER</message>
+</record>
+Oct 19, 2021 3:11:56 PM logging.FormatterExample main
+FINEST: Finnest message: Logger with SIMPLE FORMATTER

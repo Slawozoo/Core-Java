@@ -1,0 +1,12 @@
+
+public class ParseValueFromString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str = new String("Parse value from a string by splitting a string");
+		String delimspace = " ";
+		String[] parse = str.split(delimspace);
+		System.out.println(parse);
+	}
+
+}

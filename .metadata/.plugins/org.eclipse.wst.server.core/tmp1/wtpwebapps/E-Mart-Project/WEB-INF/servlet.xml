@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans
+	xmlns="http://www.springframework.org/schema/mvc"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:beans="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/mvc 
+	http://www.springframework.org/schema/mvc/spring-mvc.xsd
+		http://www.springframework.org/schema/beans 
+		http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context 
+		http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<!-- Step 5: Enables the Spring MVC @Controller programming model enables 
+		annotation features -->
+	<annotation-driven />
+	<context:component-scan
+		base-package="controllers,beans,services,configurations" />
+
+	<!-- Step 6: Resolves views selected for rendering by @Controllers to .jsp 
+		resources in the /WEB-INF/views directory -->
+	<beans:bean
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<beans:property name="prefix" value="/WEB-INF/views/" />
+		<beans:property name="suffix" value=".jsp" />
+	</beans:bean>
+
+	<!-- Step 7: Resources for static folder to stores css file, java script, 
+		images -->
+	<resources mapping="/resources/**" location="/resources/" />
+	<!-- User defined bean -->
+	<!-- Beans added by Koju starts -->
+	<beans:bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+		<beans:property name="maxUploadSize" value="3000000" />
+	</beans:bean>
+	<!-- Beans added by koju ends -->
+</beans:beans>

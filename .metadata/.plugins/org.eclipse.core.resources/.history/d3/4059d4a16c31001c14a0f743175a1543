@@ -1,0 +1,38 @@
+package com.mavenproject;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.logging.FileHandler;
+import java.util.logging.Level;
+//import java.util.logging.Logger;
+import java.util.logging.SimpleFormatter;
+
+
+public class AppLoggerUsingUtil {
+	
+		public String apps() {
+			return "App Maven Project";
+		}
+		public int add(int n, int m) {
+			return n+m;
+		}
+		 
+		public static void main(String[] args) {
+			// basic log4j configurator  
+			 
+			App app = new App();
+			int result;
+			result = app.add(7, 8);
+			String str = app.apps();
+			System.out.println("Result : "+result);
+			logger.info("Result :"+result);
+			
+			//setting levels in log4j
+			
+			
+
+
+
+		}
+
+}
