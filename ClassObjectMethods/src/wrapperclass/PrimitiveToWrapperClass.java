@@ -1,5 +1,8 @@
 package wrapperclass;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class PrimitiveToWrapperClass {
 
 	public static void main(String[] args) {
@@ -32,6 +35,7 @@ public class PrimitiveToWrapperClass {
 		System.out.println(intObj.compareTo(20));	//less tha 30
 		System.out.println(intObj.compareTo(35));	//greater than 30
 		
+		List<Integer> num = new ArrayList<Integer>();
 		
 
 	}

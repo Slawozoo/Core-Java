@@ -1,7 +1,7 @@
 
 public class CountDuplicateString {  
      public static void main(String[] args) {  
-        String string1 = "internship";  
+        String string1 = "internshippi";  
         int count; 
         int n=0;
           
@@ -20,7 +20,7 @@ public class CountDuplicateString {
             }  
             //A character is considered as duplicate if count is greater than 1  
             if(count > 1 && string[i] != '0') {
-            	n++;
+            	n++;	//dulicate letters
             	System.out.println(string[i]+" "+count );
             }  
         }

@@ -1,9 +1,0 @@
-package com.mavenproject;
-
-public class App {
-	public String Apps() {
-		return "App Maven Project";
-	}
-	
-
-}

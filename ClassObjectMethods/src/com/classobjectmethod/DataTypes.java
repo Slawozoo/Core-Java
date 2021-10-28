@@ -33,6 +33,12 @@ public class DataTypes {
 		
 		//Typecasting
 		int in = (int)ln;
+		String str= "123";
+		int num = Integer.parseInt(str);	//typecasting to Integer type
+		
+		String str1 = "156.20";
+		float fl = Float.parseFloat(str1);	//typecasting string to float type
+		
 		System.out.println("Name Integer Char    Long    Double    Short    Float    Typecasting value");
 		System.out.println(name+"	"+a+" 	"+ch+" 	"+ln+" 	"+db+"	 "+sh+"	 "+f+"	 "+ln);
 		
