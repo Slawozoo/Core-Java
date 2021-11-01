@@ -1,4 +1,4 @@
-package task8;
+package task7;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
@@ -46,8 +46,19 @@ public class ArraySortTask {
 		for (int i = 0; i < str.length; i++) {
 			str[i] = sc.next();
 		}
-		// Sorting array using sort() method from Arrays class
-		Arrays.sort(array);
+		int length = str.length;
+		for(int i= 0; i<length-1; i++) {
+			for(int j = i+1; j<str.length; j++) {
+				if(str[i].compareTo(str[j]) > 0) {
+					String temp = str[i];
+					str[i] = str[j];
+					str[j] = temp;
+				}
+			}
+		}
+		//String str1 = Arrays.toString(str);
+//		// Sorting array using sort() method from Arrays class
+//		Arrays.sort(array);
 
 		return str;
 	}
@@ -67,16 +78,23 @@ public class ArraySortTask {
 		}
 	}
 
-	static void reverseArray(Integer a[]) {
+	static void reverseArray(int a[]) {
+	//static void reverseArray(Integer a[]) { // for Integer using collection class
 		// Reversing array using reverse() method from collections class
-		Collections.reverse(Arrays.asList(a));
-		System.out.println("\nReversed Integer: " + Arrays.asList(a));
+//		Collections.reverse(Arrays.asList(a));
+//		System.out.println("\nReversed Integer: " + Arrays.asList(a));
+		 int [] arr = a;
+		 System.out.println("\nReversed Integer: ");
+		 for(int i = a.length; i>0; i--) {
+			 System.out.println(a[i]);
+		 } 
+		
 	}
 
 	static void searchArray(int[] intArray) {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter ID to display: ");
-		int search = sc.nextInt();
+		int search = sc.nextInt();	//4,5,6,7
 		for (int i = 0; i < intArray.length; i++) {
 			if (intArray[i] == search) {
 
@@ -98,17 +116,22 @@ public class ArraySortTask {
 		// Sorting
 		int[] intArray = arrayIntegerSort(arr);
 
-		String[] str = arrayStringSort(array);
-		System.out.println("Sorting String: ");
-		for (int i = 0; i < n; i++) {
-			System.out.println(str[i]);
-		}
-
+		String []str = arrayStringSort(array);
+		String sortString = Arrays.toString(str);
+		System.out.println("Sorting String: "+sortString);
+//		for(int i=0; i<n ;i++) {
+//			System.out.println(str[i]);
+//		}
+		
 		// Reversing
 		reverseArray(str, n);
 
-		Integer[] arrInteger = Arrays.stream(intArray).boxed().toArray(Integer[]::new);
-		reverseArray(arrInteger);
+		//Reversing integer using Collection class
+//		Integer[] arrInteger = Arrays.stream(intArray).boxed().toArray(Integer[]::new);
+//		reverseArray(arrInteger);
+		
+		//Reversing integer using logic
+		reverseArray(intArray);
 
 		// Searching
 		searchArray(intArray);

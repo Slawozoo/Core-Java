@@ -1,4 +1,4 @@
-package task8;
+package task7;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -28,8 +28,25 @@ public class SortAndSearchList {
 			strList.add(ac.next());
 		}
 		// Sorting list using sort() method from collections class
-		Collections.sort(strList);
-		System.out.println("Sorted String list: " + strList);
+//		Collections.sort(strList);
+//		System.out.println("Sorted String list: " + strList);
+		
+		
+		String[] stringArray = new String[strList.size()];
+        stringArray = strList.toArray(stringArray);
+		
+		for(int i=0; i < stringArray.length;i++) {
+			for(int j = i+1; j< stringArray.length; j++) {
+				if(stringArray[i].compareTo(stringArray[j]) >0) {
+					String temp = stringArray[i];
+					stringArray[i] = stringArray[j];
+					stringArray[j] = temp;
+				}
+			}
+		}
+		for(int i=0; i< stringArray.length;i++) {
+			System.out.println(stringArray[i]);
+		}
 	}
 
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package task8;
+package task7;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -27,6 +27,7 @@ public class TaskSingularPlural {
 		list.add("990000016 $Diseases");
 		list.add("990000017 $Elements");
 		list.add("546546454 $Countries");
+		list.add("546546454 $Disadvantages");
 
 		// System.out.println(list);
 
@@ -46,27 +47,36 @@ public class TaskSingularPlural {
 			String singular;
 
 			// data = data.substring(0, data.length()-1);
+			
+//			//String str1 ;
+//			boolean str1 = data.endsWith("es");
 
-			if (data.charAt(data.length() - 1) == 's') {
+			if (data.charAt(data.length() - 1) == 's') {	//arrays, 	types
 				plural = data;
 				data = data.substring(0, data.length() - 1);
 				// System.out.println(data);
 
-				if (data.charAt(data.length() - 1) == 'e' && data.charAt(data.length() - 2) != 'p') {
+				//
+				if (data.charAt(data.length() - 1) == 'e' && data.charAt(data.length() - 2) != 'p'	//Bodies & !types
+						&& data.charAt(data.length() - 2) != 'g' && data.charAt(data.length() - 2) != 'n'
+						) {	//phones
+					//ends with sses: sweetnesses/ processes remove es else remove s
+					// 
+					
 					data = data.substring(0, data.length() - 1);
 					// System.out.println(data);
 
-					if ((data.charAt(data.length() - 1) == 's') || (data.charAt(data.length() - 1) == 'x')
+					if ((data.charAt(data.length() - 1) == 's') || (data.charAt(data.length() - 1) == 'x')	//complexes
 							|| (data.charAt(data.length() - 1) == 'i')) {
-						data = data.substring(0, data.length());
+						//data = data.substring(0, data.length());
 						// System.out.println(data);
 
-						if ((data.charAt(data.length() - 1) == 'i')) {
+						if ((data.charAt(data.length() - 1) == 'i')) {	//countries
 
 							data = data.substring(0, data.length() - 1);
 							data = data.concat("y");
 							// System.out.println(data);
-						} else if ((data.charAt(data.length() - 2) == 'a')) {
+						} else if ((data.charAt(data.length() - 2) == 'a')) {	//diseases
 //							data = data.substring(0, data.length()-1);
 							data = data.concat("e");
 							// System.out.println(data);

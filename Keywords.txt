@@ -1,0 +1,24 @@
+Singular	Plural		difference
+process		processes	es		
+time		times		s
+country		countries	y/ies
+anesthetise	anesthetises	s	y
+complex		complexes	es
+ASPERSE		ASPERSES 	s	y		
+COSMOS		COSMOSES	es		x
+COREOPSIS	COREOPSISES	es		x
+
+
+condition
+	ies
+else
+	es
+	else
+		ases | ges | mes etc remove s only
+	else
+		sses | xes	remove es
+	s
+		
+else
+	s
+
