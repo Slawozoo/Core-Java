@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="java.util.logging.FileHandler"/>
-<fullyQualifiedTypeName name="java.io.IOException"/>
-<fullyQualifiedTypeName name="java.io.File"/>
 <fullyQualifiedTypeName name="java.util.logging.SimpleFormatter"/>
 <fullyQualifiedTypeName name="com.mavenproject.App"/>
 <fullyQualifiedTypeName name="java.util.logging.Logger"/>
@@ -10,7 +8,6 @@
 <fullyQualifiedTypeName name="java.util.logging.Level"/>
 <fullyQualifiedTypeName name="polymorphism.MethodOverriding"/>
 <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
-<fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="java.text.ParseException"/>
 <fullyQualifiedTypeName name="java.util.LinkedList"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
@@ -22,16 +19,43 @@
 <fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="java.util.Stack"/>
 <fullyQualifiedTypeName name="java.util.Vector"/>
-<fullyQualifiedTypeName name="java.lang.reflect.Array"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
 <fullyQualifiedTypeName name="java.util.Collection"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.util.Iterator"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="ooptasklist.SearchAndRemove"/>
 <fullyQualifiedTypeName name="ooptasklist.AddAuthorList"/>
 <fullyQualifiedTypeName name="java.util.Comparator"/>
 <fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="java.io.OutputStream"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="oopfiletask.ReadJsonArticleAuthor"/>
+<fullyQualifiedTypeName name="org.json.simple.JSONObject"/>
+<fullyQualifiedTypeName name="oopfiletask.AddAuthorList"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="oopfiletask.ReadJSONFile"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="com.abstractclass.abstractPersonMethod"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+<fullyQualifiedTypeName name="com.abstractclass.abstractPerson"/>
+<fullyQualifiedTypeName name="interfacecom.MusicPlayer"/>
+<fullyQualifiedTypeName name="interfacecom.SmartPhone"/>
+<fullyQualifiedTypeName name="com.innerclass.InnerSteller"/>
+<fullyQualifiedTypeName name="com.innerclass.InnerSteller.InnerClass"/>
+<fullyQualifiedTypeName name="com.innerclass.OuterInnerDeclaration"/>
+<fullyQualifiedTypeName name="fileinterface.FileWriteInterface"/>
+<fullyQualifiedTypeName name="fileinterface.SaveAuthor"/>
+<fullyQualifiedTypeName name="org.json.simple.JSONArray"/>
+<fullyQualifiedTypeName name="fileinterface.UserInput"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="fileinterface.IAuthorOperations"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="oopfiletask.IArticleOperations"/>
+<fullyQualifiedTypeName name="oopfiletask.ArticleUtils"/>
 </qualifiedTypeNameHistroy>

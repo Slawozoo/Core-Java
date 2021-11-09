@@ -92,11 +92,7 @@ public class Main{
 		sortObjectList sortObject = new sortObjectList();
 		sortObject.sortObject(sizeArticle, articleList);
 		
-		
-		
-		
-		
-
+	
 	}
 	
 

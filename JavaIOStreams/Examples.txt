@@ -1,0 +1,1 @@
+Enter the string to be added in the file: This file contains every file attributes to be entered and this is last sentence of the file and I have concatenate the strings and print the concated string in the file.
