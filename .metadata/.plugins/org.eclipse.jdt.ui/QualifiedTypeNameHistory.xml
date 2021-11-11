@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.logging.Level"/>
 <fullyQualifiedTypeName name="polymorphism.MethodOverriding"/>
 <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
 <fullyQualifiedTypeName name="java.text.ParseException"/>
@@ -53,11 +52,12 @@
 <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="com.staticfinal.Person"/>
 <fullyQualifiedTypeName name="com.staticfinal.StaticJava"/>
 <fullyQualifiedTypeName name="com.staticfinal.FinalJavaExample"/>
 <fullyQualifiedTypeName name="fileinterface.AuthorOperationsImpl"/>
 <fullyQualifiedTypeName name="org.json.simple.JSONArray"/>
 <fullyQualifiedTypeName name="org.json.JSONArray"/>
+<fullyQualifiedTypeName name="com.multithreading.ThreadDemo"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
