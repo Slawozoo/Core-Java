@@ -1,24 +1,27 @@
-package oopfiletask;
+package lambdafile;
 
-import java.io.*;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+import java.util.stream.Stream;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
-
-import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class MainWriteJson {
 
 	@SuppressWarnings("unchecked")
 	public static void main(String[] args) throws IOException {
 		Scanner scn = new Scanner(System.in);
-		System.out.println("Enter the no. of list: ");
+		System.out.println("Enter the no. of  author in the list: ");
 		int n = scn.nextInt();
 		List<Author> authList = new ArrayList<Author>(n);
 		File file = new File("author.json"); // Json file where all written output stored
+		
+		//user input 
 		for (int i = 0; i < n; i++) {
 			Author auth = new Author();
 			System.out.print("Enter First name of author: ");
@@ -40,22 +43,23 @@ public class MainWriteJson {
 
 		}
 
-		// Json started from here
+		
+		 //Json started from here
 		JSONArray jsonList = new JSONArray();
 		// Creating a JSONObject object
 		for (int i = 0; i < authList.size(); i++) {
+			
 			JSONObject jsonAuthorObject = new JSONObject();
 			// Inserting key-value pairs into the json object
-			jsonAuthorObject.put("Name", authList.get(i).getName());
 			jsonAuthorObject.put("FirstName", authList.get(i).getfName());
 			jsonAuthorObject.put("LastName", authList.get(i).getlName());
+			jsonAuthorObject.put("Name", authList.get(i).getName());
 			jsonAuthorObject.put("Address", authList.get(i).getAddress());
 			jsonAuthorObject.put("Email", authList.get(i).getEmail());
 			jsonAuthorObject.put("Institution", authList.get(i).getInstitution());
-
-
+			
 			jsonList.add(jsonAuthorObject);
-
+			
 		}
 		JSONObject authorObject = new JSONObject();
 		authorObject.put("Author", jsonList);
@@ -65,7 +69,7 @@ public class MainWriteJson {
 			FileWriter file1 = new FileWriter(file);
 			file1.write(authorObject.toJSONString());
 			file1.close();
-			// System.out.println(jsonObject);
+			
 		} catch (IOException e) {
 
 			e.printStackTrace();
@@ -73,5 +77,7 @@ public class MainWriteJson {
 		System.out.println("JSON file created: " + authorObject);
 
 	}
+	
+	
 
 }

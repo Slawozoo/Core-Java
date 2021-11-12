@@ -1,0 +1,36 @@
+{
+  "Author": [
+    {
+      "Email": "amar.naga",
+      "Address": "Suryabinayak",
+      "FirstName": "Amar",
+      "LastName": "Naga",
+      "Institution": "Cotiviti",
+      "Name": "AmarNaga"
+    },
+    {
+      "Email": "sanam.suwal",
+      "Address": "Bhaktapur",
+      "FirstName": "Sanam",
+      "LastName": "Suwal",
+      "Institution": "Cloudfactory",
+      "Name": "SanamSuwal"
+    },
+    {
+      "Email": "sayal.madhikarmi",
+      "Address": "Intern",
+      "FirstName": "Sayal",
+      "LastName": "Madhikarmi",
+      "Institution": "Orgware",
+      "Name": "SayalMadhikarmi"
+    },
+    {
+      "Email": "sujan.hyoju",
+      "Address": "Banepa",
+      "FirstName": "Sujan",
+      "LastName": "Hyoju",
+      "Institution": "Senior",
+      "Name": "SujanHyoju"
+    }
+  ]
+}
