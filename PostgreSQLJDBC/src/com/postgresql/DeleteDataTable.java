@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class DeleteDataTable {
 
-	private static final String updateSQL = "DELETE from authors WHERE id = ?";
+	private static final String deleteRecordSQL = "DELETE from authors WHERE id = ?";
 	
 	public static void deleteData(Connection con) {
 		
@@ -15,7 +15,7 @@ public class DeleteDataTable {
 		System.out.print("Enter the id to be deleted: ");
 		int idSearch = scn.nextInt();
 		try {
-			PreparedStatement prepStatement = con.prepareStatement(updateSQL);
+			PreparedStatement prepStatement = con.prepareStatement(deleteRecordSQL);
 			prepStatement.setInt(1, idSearch);
 			
 			prepStatement.executeUpdate();

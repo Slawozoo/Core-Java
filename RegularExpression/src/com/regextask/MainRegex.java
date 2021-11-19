@@ -15,9 +15,9 @@ public class MainRegex {
 
 	private static Pattern contactPtrn = Pattern.compile("(?<=contact: ).*");
 
-	 private static Pattern namePattern = Pattern.compile("^Developer Name: ([A-Z][a-z]*((\\s)))+[A-Z][a-z]*$");
-//	private static Pattern namePattern = Pattern.compile("(?<=Developer Name: ).*");
-	 // (?<=Developer Name: ) : except this inside the '()'
+//	 private static Pattern namePattern = Pattern.compile("^Developer Name: ([A-Z][a-z]*((\\s)))+[A-Z][a-z]*$");
+	private static Pattern namePattern = Pattern.compile("(?<=Developer Name: ).*");
+	// (?<=Developer Name: ) : except this inside the '()'
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -31,21 +31,11 @@ public class MainRegex {
 			Employee emp = new Employee();
 			while (myReader.hasNext()) {
 				String data = myReader.nextLine();
-				
 
 				Matcher matcherName = namePattern.matcher(data);
 				Matcher matcherContact = contactPtrn.matcher(data);
 				Matcher matcherEmail = emailNamePtrn.matcher(data);
 
-				// if match set in emp
-
-				// similarly match email pattern and contact pattern
-				// if match set in emp
-
-				// add name , contact ,email in emp
-				// add employee in list
-
-				// System.out.println(data);
 				if (matcherName.find()) {
 
 					String matchedName = matcherName.group();
@@ -65,14 +55,13 @@ public class MainRegex {
 					emp.setContact(matchedContact);
 				}
 				// Employee emp = new Employee(matchedName, matchedEmail, matchedContact);
-				
-				if(emp.getName()!= null && emp.getContact()!= null && emp.getEmail()!=null) {
+
+				if (emp.getName() != null && emp.getContact() != null && emp.getEmail() != null) {
 					listEmp.add(emp);
 					emp = new Employee();
 				}
-				
+
 			}
-			
 
 			Iterator itr = listEmp.iterator();
 			while (itr.hasNext()) {
@@ -81,7 +70,7 @@ public class MainRegex {
 
 			myReader.close();
 		} catch (FileNotFoundException e) {
-			System.out.println("An error occurred.");
+			//System.out.println("An error occurred.");
 			e.printStackTrace();
 		}
 

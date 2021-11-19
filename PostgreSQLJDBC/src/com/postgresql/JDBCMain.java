@@ -14,7 +14,7 @@ public class JDBCMain {
 
 		try {
 			Connection con = DriverManager.getConnection(url, user, password);
-			// System.out.println("data base connected sucessfully");
+			// System.out.println("data base connected successfully");
 
 			System.out.print("Type the case you want to continue: ");
 			System.out.println(
@@ -23,31 +23,41 @@ public class JDBCMain {
 			String cases = scn.next();
 			// Create table in database db_App tablename authors
 			// CreateTable.createTableSql(con);
+			//DBUtils.createTableSql(conn);
 
 			switch (cases) {
 			case "insert":
 				// Insert in database db_App tablename authors
-				InsertTable.insertIntoTable(con);
+				//InsertTable.insertIntoTable(con);
+				DBUtils.insertIntoTable(con);
 				break;
 
 			case "retrieve":
 				// Select from database db_App tablename authors
-				RetrieveDataTable.selectQuery(con);
+				//RetrieveDataTable.selectQuery(con);
+				DBUtils.selectQuery(con);
 				break;
 
 			case "retrieveall":
 				// Select from database db_App tablename authors
-				RetrieveDataTable.selectAllQuery(con);
+				//RetrieveDataTable.selectAllQuery(con);
+				DBUtils.selectAllQuery(con);
+				//foreach()
 				break;
+				
 
 			case "delete":
 				// Delete from database db_App tablename authors
-				System.out.println("Delete record from database");
+				//DeleteDataTable.deleteData(con);
+				//System.out.println("Delete record from database");
+				DBUtils.deleteData(con);
 				break;
 
 			case "update":
 				// Update from database db_App tablename authors
-				System.out.println("Update sucessful");
+				//UpdateDataTable.updateTable(con);
+				DBUtils.updateTable(con);
+				//System.out.println("Update sucessful");
 				break;
 
 			default:

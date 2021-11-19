@@ -7,7 +7,7 @@ import java.sql.SQLException;
 import java.util.Scanner;
 
 public class UpdateDataTable {
-	private static final String updateSQL = "UPDATE authors SET institution = ? WHERE id = ?";
+	private static final String updateRecordSQL = "UPDATE authors SET institution = ? WHERE id = ?";
 	
 	public static void updateTable(Connection con) {
 		
@@ -20,7 +20,7 @@ public class UpdateDataTable {
 		
 		PreparedStatement statement;
 		try {
-			statement = con.prepareStatement(updateSQL);
+			statement = con.prepareStatement(updateRecordSQL);
 			statement.setString(1, updateInstitution);
 			statement.setInt(2, idSearch);
 			statement.executeUpdate();
