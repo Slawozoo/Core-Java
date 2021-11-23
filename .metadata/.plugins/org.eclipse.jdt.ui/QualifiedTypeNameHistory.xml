@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.abstractclass.abstractPersonMethod"/>
-<fullyQualifiedTypeName name="com.abstractclass.abstractPerson"/>
-<fullyQualifiedTypeName name="interfacecom.MusicPlayer"/>
-<fullyQualifiedTypeName name="interfacecom.SmartPhone"/>
-<fullyQualifiedTypeName name="com.innerclass.InnerSteller"/>
-<fullyQualifiedTypeName name="com.innerclass.InnerSteller.InnerClass"/>
-<fullyQualifiedTypeName name="com.innerclass.OuterInnerDeclaration"/>
-<fullyQualifiedTypeName name="fileinterface.FileWriteInterface"/>
-<fullyQualifiedTypeName name="fileinterface.SaveAuthor"/>
-<fullyQualifiedTypeName name="fileinterface.UserInput"/>
-<fullyQualifiedTypeName name="fileinterface.IAuthorOperations"/>
-<fullyQualifiedTypeName name="oopfiletask.IArticleOperations"/>
 <fullyQualifiedTypeName name="oopfiletask.ArticleUtils"/>
 <fullyQualifiedTypeName name="com.generics.GenericExampleClass"/>
 <fullyQualifiedTypeName name="javax.print.attribute.SetOfIntegerSyntax"/>
@@ -60,4 +48,16 @@
 <fullyQualifiedTypeName name="java.net.DatagramPacket"/>
 <fullyQualifiedTypeName name="java.net.DatagramSocket"/>
 <fullyQualifiedTypeName name="com.javanetworking.DatagramPacketReceiver"/>
+<fullyQualifiedTypeName name="com.factorydesign.DomesticPlan"/>
+<fullyQualifiedTypeName name="com.factorydesign.InstitutionalPlan"/>
+<fullyQualifiedTypeName name="com.factorydesign.GovernmentPlan"/>
+<fullyQualifiedTypeName name="com.factorydesign.PlanFactory"/>
+<fullyQualifiedTypeName name="discount.factorypattern.Sunday"/>
+<fullyQualifiedTypeName name="discount.factorypattern.Monday"/>
+<fullyQualifiedTypeName name="discount.factorypattern.Tuesday"/>
+<fullyQualifiedTypeName name="discount.factorypattern.Wednesday"/>
+<fullyQualifiedTypeName name="discount.factorypattern.Thursday"/>
+<fullyQualifiedTypeName name="discount.factorypattern.Friday"/>
+<fullyQualifiedTypeName name="discount.factorypattern.Saturday"/>
+<fullyQualifiedTypeName name="discount.factorypattern.DiscountFactory"/>
 </qualifiedTypeNameHistroy>
