@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="oopfiletask.ArticleUtils"/>
-<fullyQualifiedTypeName name="com.generics.GenericExampleClass"/>
-<fullyQualifiedTypeName name="javax.print.attribute.SetOfIntegerSyntax"/>
-<fullyQualifiedTypeName name="java.lang.reflect.Array"/>
-<fullyQualifiedTypeName name="com.staticfinal.Person"/>
-<fullyQualifiedTypeName name="com.staticfinal.StaticJava"/>
-<fullyQualifiedTypeName name="com.staticfinal.FinalJavaExample"/>
 <fullyQualifiedTypeName name="fileinterface.AuthorOperationsImpl"/>
 <fullyQualifiedTypeName name="org.json.simple.JSONArray"/>
 <fullyQualifiedTypeName name="org.json.JSONArray"/>
@@ -32,8 +25,6 @@
 <fullyQualifiedTypeName name="com.postgresql.RetrieveDataTable"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.sql.Statement"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="java.util.Iterator"/>
 <fullyQualifiedTypeName name="com.regextask.Employee"/>
 <fullyQualifiedTypeName name="com.postgresql.DeleteDataTable"/>
 <fullyQualifiedTypeName name="com.postgresql.UpdateDataTable"/>
@@ -60,4 +51,13 @@
 <fullyQualifiedTypeName name="discount.factorypattern.Friday"/>
 <fullyQualifiedTypeName name="discount.factorypattern.Saturday"/>
 <fullyQualifiedTypeName name="discount.factorypattern.DiscountFactory"/>
+<fullyQualifiedTypeName name="java.security.AuthProvider"/>
+<fullyQualifiedTypeName name="java.io.ObjectInputStream.GetField"/>
+<fullyQualifiedTypeName name="com.daopattern.Author"/>
+<fullyQualifiedTypeName name="com.daojdbc.IAuthorDao"/>
+<fullyQualifiedTypeName name="com.daojdbc.AuthorDBUtilsImpl"/>
+<fullyQualifiedTypeName name="com.daopattern.AuthorDAOImpl"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.daopattern.IAuthorDAO"/>
 </qualifiedTypeNameHistroy>
