@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="fileinterface.AuthorOperationsImpl"/>
-<fullyQualifiedTypeName name="org.json.simple.JSONArray"/>
-<fullyQualifiedTypeName name="org.json.JSONArray"/>
-<fullyQualifiedTypeName name="com.multithreading.ThreadDemo"/>
-<fullyQualifiedTypeName name="com.multithreadingtask.FileThread"/>
-<fullyQualifiedTypeName name="com.multithreadingtask.ReadJSONFile"/>
-<fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
-<fullyQualifiedTypeName name="com.lambdaexpression.LambdaTest"/>
-<fullyQualifiedTypeName name="com.lambdaexpression.LambdaTest.MathOperation"/>
-<fullyQualifiedTypeName name="java.util.Collections"/>
 <fullyQualifiedTypeName name="java.io.File"/>
 <fullyQualifiedTypeName name="lambdafile.ReadJson"/>
 <fullyQualifiedTypeName name="org.json.simple.parser.ParseException"/>
@@ -19,7 +9,6 @@
 <fullyQualifiedTypeName name="org.json.simple.parser.JSONParser"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="java.util.stream.Stream"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.sql.DriverManager"/>
 <fullyQualifiedTypeName name="com.postgresql.InsertTable"/>
 <fullyQualifiedTypeName name="com.postgresql.RetrieveDataTable"/>
@@ -57,7 +46,18 @@
 <fullyQualifiedTypeName name="com.daojdbc.IAuthorDao"/>
 <fullyQualifiedTypeName name="com.daojdbc.AuthorDBUtilsImpl"/>
 <fullyQualifiedTypeName name="com.daopattern.AuthorDAOImpl"/>
-<fullyQualifiedTypeName name="java.util.Iterator"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.daopattern.IAuthorDAO"/>
+<fullyQualifiedTypeName name="com.webcrawler.BasicWebCrawler"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="com.webcrawler.WebCrawlerWithDepth"/>
+<fullyQualifiedTypeName name="com.webcrawler.Extractor"/>
+<fullyQualifiedTypeName name="org.jsoup.Jsoup"/>
+<fullyQualifiedTypeName name="org.jsoup.nodes.Element"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.jsoup.nodes.Document"/>
+<fullyQualifiedTypeName name="org.jsoup.select.Elements"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.webscrappingtask.WebScrapping"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
 </qualifiedTypeNameHistroy>
