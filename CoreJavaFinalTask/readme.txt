@@ -1,4 +1,4 @@
-This project is my final task based on core java that does the following :
+# This project is my final task based on core java that does the following :
 1. Use URL connection to download a file
 2. Read the downloaded file and store in database table
 3. Display data stored in the database table
