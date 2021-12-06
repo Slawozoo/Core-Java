@@ -1,4 +1,4 @@
-package com.finaltask.CoreJavaFinalTask;
+package com.finaltask.corejavafinaltask.domain;
 
 public class Author {
 	private String fName;

@@ -1,4 +1,4 @@
-package com.finaltask.CoreJavaFinalTask;
+package com.finaltask.corejavafinaltask;
 
 import java.io.File;
 import java.io.IOException;
@@ -8,7 +8,10 @@ import java.net.URL;
 import org.apache.commons.io.FileUtils;
 
 public class DownloadFile {
-	//File destination_file = new File("Article.json");
+
+	/**
+	 * Download file
+	 */
 	public void downloadFile() {
 		// Download file from URL
 		try {

@@ -1,4 +1,4 @@
-package com.finaltask.CoreJavaFinalTask;
+package com.finaltask.corejavafinaltask;
 
 import java.io.File;
 import java.sql.Connection;
@@ -7,6 +7,10 @@ import java.sql.SQLException;
 import java.text.ParseException;
 import java.util.List;
 import java.util.Scanner;
+
+import com.finaltask.corejavafinaltask.dao.*;
+import com.finaltask.corejavafinaltask.dao.impl.*;
+import com.finaltask.corejavafinaltask.domain.*;
 
 public class Main {
 	private final static String url = "jdbc:postgresql://localhost/db_App";
@@ -30,82 +34,80 @@ public class Main {
 		try {
 			//Connect to database
 			Connection con = DriverManager.getConnection(url, user, password);
-//			System.out.println("data base connected successfully");
+			//System.out.println("data base connected successfully");
 			IArticleDao articleDao = new ArticleDaoImpl();
 			switch(switchCase) {
 			case 1:
-				// Download file from URL
+				/*Download file from URL*/ 
 				DownloadFile downloadFile = new DownloadFile();
 				downloadFile.downloadFile();
 				break;
 			case 2:
-				//File from the downloaded URL
+				/*File from the downloaded URL*/
 				File file = new File("Article.json");
 				
-				//Reading JSON file
+				/*Reading JSON file*/
 				IArticleOperations articleOperations = new ArticleOperationsImpl();
 				List<Article> articleList = articleOperations.readFile(file);
 				
-				//Create article table
-//				IArticleDao articleDAO = new ArticleDaoImpl();
-//				articleDAO.createArticleTableSql(con);
+				/*Create article table*/
+				//IArticleDao articleDAO = new ArticleDaoImpl();
+				//articleDAO.createArticleTableSql(con);
 				
-				//Create author tables
-//				IAuthorDAO authorDAO = new AuthorDAOImpl();
-//				authorDAO.createAuthorTableSql(con);
+				/*Create author tables*/
+				//IAuthorDAO authorDAO = new AuthorDAOImpl();
+				//authorDAO.createAuthorTableSql(con);
 				
-				//Insert into table from file
+				/*Insert into table from file*/
 				articleDao.insertIntoTable(con,articleList);
 				
 				break;
 				
 			case 3:
-				//Retrieve all article from database
+				/*Retrieve all article from database*/
 				articleDao.retrieveArticleTable(con);
 				break;
 				
 			case 4:
-				//Insert into table from user input
+				/*Insert into table from user input*/
 				articleDao.insertIntoTable(con);
 				break;
 				
 			case 5:
-				//Retrieve article using title
+				/*Retrieve article using title*/
 				articleDao.retrieveArticleByTitle(con);
 				break;
 				
 			case 6:
-				//Retrieve article using author Detail
+				/*Retrieve article using author Detail*/
 				articleDao.retrieveArticleByAuthorEmail(con);
 				break;
 				
 			case 7:
-				//Delete article by title
+				/*Delete article by title*/
 				articleDao.deleteArticleByTitle(con);
 				break;
 				
 			case 8:
-				//Delete article by author detail
+				/*Delete article by author detail*/
 				articleDao.deleteArticleByAuthorEmail(con);
 				break;
 				
 			case 9:	
+				/*Export the database in JSON file*/
 				List<Article> articleLists = articleDao.generateArticle(con);
-				articleDao.writeJsonFIle(articleLists);
+				articleDao.writeJsonFile(articleLists);
 				break;
 				
 			default:
-				System.out.println("Enter valid case....");
-				
-			}
-			
+				System.out.println("Enter valid case....");	
+			}	
 		} catch (ParseException e) {
 			e.printStackTrace();
 		} catch (org.json.simple.parser.ParseException e) {
 			e.printStackTrace();
 		} 
 		catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		

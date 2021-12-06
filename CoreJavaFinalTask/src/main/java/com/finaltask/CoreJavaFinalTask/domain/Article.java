@@ -1,8 +1,6 @@
-package com.finaltask.CoreJavaFinalTask;
+package com.finaltask.corejavafinaltask.domain;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Date;
 import java.util.List;
 
 public class Article {

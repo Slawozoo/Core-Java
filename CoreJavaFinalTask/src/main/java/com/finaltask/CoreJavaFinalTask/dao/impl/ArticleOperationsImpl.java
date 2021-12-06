@@ -1,6 +1,7 @@
-package com.finaltask.CoreJavaFinalTask;
+package com.finaltask.corejavafinaltask.dao.impl;
 
 import java.io.File;
+
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
@@ -13,6 +14,8 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
+import com.finaltask.corejavafinaltask.dao.*;
+import com.finaltask.corejavafinaltask.domain.*;
 public class ArticleOperationsImpl implements IArticleOperations{
 
 	//Read Json File
