@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.io.File"/>
-<fullyQualifiedTypeName name="lambdafile.ReadJson"/>
-<fullyQualifiedTypeName name="org.json.simple.parser.ParseException"/>
-<fullyQualifiedTypeName name="java.nio.file.Paths"/>
-<fullyQualifiedTypeName name="java.io.Reader"/>
-<fullyQualifiedTypeName name="java.nio.file.Files"/>
-<fullyQualifiedTypeName name="org.json.simple.parser.JSONParser"/>
-<fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="java.util.stream.Stream"/>
 <fullyQualifiedTypeName name="java.sql.DriverManager"/>
 <fullyQualifiedTypeName name="com.postgresql.InsertTable"/>
@@ -20,7 +12,6 @@
 <fullyQualifiedTypeName name="com.postgresql.SqlCommands"/>
 <fullyQualifiedTypeName name="com.postgresql.DBUtils"/>
 <fullyQualifiedTypeName name="java.io.InputStream"/>
-<fullyQualifiedTypeName name="java.net.URL"/>
 <fullyQualifiedTypeName name="com.javanetworking.HttpUrlConnection"/>
 <fullyQualifiedTypeName name="java.net.InetAddress"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
@@ -54,10 +45,19 @@
 <fullyQualifiedTypeName name="com.webcrawler.Extractor"/>
 <fullyQualifiedTypeName name="org.jsoup.Jsoup"/>
 <fullyQualifiedTypeName name="org.jsoup.nodes.Element"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="org.jsoup.nodes.Document"/>
 <fullyQualifiedTypeName name="org.jsoup.select.Elements"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="com.webscrappingtask.WebScrapping"/>
 <fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="java.net.URL"/>
+<fullyQualifiedTypeName name="com.finaltask.CoreJavaFinalTask.IArticleOperations"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="com.finaltask.CoreJavaFinalTask.DownloadFileFromUrl"/>
+<fullyQualifiedTypeName name="com.finaltask.CoreJavaFinalTask.IArticleDao"/>
+<fullyQualifiedTypeName name="com.finaltask.CoreJavaFinalTask.ArticleOperationsImpl"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.finaltask.CoreJavaFinalTask.IAuthorDAO"/>
+<fullyQualifiedTypeName name="com.finaltask.CoreJavaFinalTask.ArticleDaoImpl"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.finaltask.CoreJavaFinalTask.AuthorDAOImpl"/>
 </qualifiedTypeNameHistroy>
